@@ -1268,7 +1268,7 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     getsource (0.2.2)
-    git (1.10.2)
+    git (1.11.0)
       rchardet (~> 1.8)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
@@ -1377,7 +1377,7 @@ PLATFORMS
 DEPENDENCIES
   awspec (~> 1.25)
   confidante (~> 0.27)
-  git (~> 1.10)
+  git (~> 1.11, >= 1.11.0)
   rake (~> 13.0)
   rake_circle_ci (~> 0.9)
   rake_dependencies (~> 2.9)
@@ -1389,4 +1389,4 @@ DEPENDENCIES
   semantic (~> 1.6)
 
 BUNDLED WITH
-   2.3.7
+   2.1.4
